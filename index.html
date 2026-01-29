@@ -1,17 +1,163 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-TW">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/src/style.css" rel="stylesheet">
-    <title>atfr.org.tw</title>
+    <title>臺灣山林復育協會 | Association of Taiwan Forest Restoration</title>
   </head>
-  <body>
-    <div id="app"></div>
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+  <body class="font-sans antialiased">
+    <!-- Hero Section -->
+    <section class="relative h-screen bg-cover bg-center bg-[url(/img/bg-sm.webp)]">
+      <div class="absolute inset-0 bg-black opacity-10"></div>
+
+      <!-- Sidebar Text -->
+      <div class="absolute left-0 top-0 h-full flex items-center">
+        <div class="text-white transform -rotate-90 origin-left translate-x-8 whitespace-nowrap text-sm tracking-wider">
+          Association of Taiwan Forest Restoration
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="relative h-full flex flex-col items-center justify-center text-white px-4">
+        <!-- Logo -->
+        <img src="/img/logo.svg" class="w-110 mb-10" />
+
+        <!-- Main Heading -->
+        <h1 class="text-5xl md:text-6xl font-bold mb-4 text-shadow-lg">新網站建置中</h1>
+        <p class="text-xl md:text-2xl tracking-wider mb-12 text-shadow-lg">NEW WEBSITE UNDER CONSTRUCTION</p>
+
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-12 flex flex-col items-center">
+          <div class="w-px h-16 bg-white mb-2"></div>
+          <p class="text-xs tracking-widest">SCROLL</p>
+        </div>
+      </div>
+
+      <!-- Year Label -->
+      <!--<div class="absolute bottom-8 right-8 text-white text-sm">
+        <p>2026 Taiwan Low-Elevation Mountain</p>
+        <p class="text-right">Vegetation Restoration Project</p>
+      </div>-->
+    </section>
+
+    <!-- News Section -->
+    <section class="py-16 bg-gray-50">
+      <div class="container mx-auto px-4 flex flex-col items-center">
+        <!-- Section Title -->
+        <div class="text-center mb-12">
+          <h2 class="text-2xl font-bold mb-2">最新消息</h2>
+          <p class="text-sm text-gray-600">News</p>
+          <div class="w-16 h-1 bg-green-600 mx-auto mt-4"></div>
+        </div>
+
+        <!-- Logo -->
+        <img src="/img/logo-v.svg" class="w-100"/>
+
+        <!-- News Content -->
+        <div class="max-w-2xl mx-auto mb-8 text-center">
+          <h3 class="text-xl font-bold mb-4 text-green-700">新站籌備中｜與森林一同成長</h3>
+          <p class="text-gray-700 leading-relaxed mb-6">
+            各位夥伴好！臺灣山林復育協會的新網站正在努力「發芽」中 。
+          </p>
+          <p class="text-gray-700 leading-relaxed mb-6 text-justify">
+            我們長年致力於臺灣淺山植群復育及山林科普教育，為了達成「十年樹木，百年樹人」的目標，我們將建立新網站，以此讓更多人可以從網路上獲取正確與重要的生態知識，雖然新站還在施工，但我們復育山林的腳步從未停歇，期待不久後以全新的面貌與大家見面！
+          </p>
+          <button class="px-6 py-2 border-2 border-gray-800 text-gray-800 rounded-full hover:bg-gray-800 hover:text-white transition">
+            進入舊官網
+          </button>
+        </div>
+
+        <!-- Three Cards -->
+        <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto mt-12">
+          <!-- Card 1: Monthly Newsletter -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+            <div class="h-48 bg-[url(/img/news.webp)] bg-cover bg-center">
+              <div class="h-full flex items-end p-6">
+                <div class="text-white">
+                  <p class="text-3xl font-bold">2026會訊</p>
+                  <p class="text-sm">VOL.01</p>
+                  <p class="text-xs mt-2">臺灣山林復育會訊</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-6">
+              <h4 class="font-bold mb-2">每月會訊</h4>
+              <p class="text-sm mb-2">Monthly Newsletter</p>
+              <p class="text-sm text-gray-600 mb-4">
+                愛可以及入了解我們的新活動月刊與成果報專，追蹤我們全台各地與世界各地的專案成果。
+              </p>
+              <button class="px-4 py-2 border border-gray-800 rounded-full text-sm hover:bg-gray-800 hover:text-white transition">
+                查看會訊
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 2: Media Coverage -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+            <div class="h-48 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1604537466158-719b1972feb8?q=80&w=800');">
+              <div class="h-full flex items-center justify-center bg-black/40">
+                <div class="text-white text-center">
+                  <div class="w-16 h-16 mx-auto mb-2 bg-red-600 rounded-full flex items-center justify-center">
+                    <span class="text-2xl">▶</span>
+                  </div>
+                  <p class="text-sm">種子到森林</p>
+                  <p class="text-lg font-bold">海岸造林新思維</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-6">
+              <h4 class="font-bold mb-2">媒體報導</h4>
+              <p class="text-sm mb-2">Media Coverage</p>
+              <p class="text-sm text-gray-600 mb-4">
+                透一步觸體專編為山林復育做出的努力「生態觀點」以及各項成果成功。
+              </p>
+              <button class="px-4 py-2 border border-gray-800 rounded-full text-sm hover:bg-gray-800 hover:text-white transition">
+                觀看報導
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 3: Fundraising Project -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+            <div class="h-48 bg-[url('/img/fundraising.webp')] bg-cover bg-center">
+              <div class="h-full bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                <div class="text-white">
+                  <p class="text-3xl font-bold">2026</p>
+                  <p class="text-sm">低海拔闊葉林復育募資計畫</p>
+                  <p class="text-xs mt-2">LOW-ELEVATION BROAD LEAF FOREST</p>
+                  <div class="flex items-center gap-2 mt-3">
+                    <div class="w-8 h-8 bg-green-600 rounded-full"></div>
+                    <div class="w-8 h-8 bg-green-800 rounded-full -ml-3"></div>
+                    <p class="text-xs">臺灣山林復育協會</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-6">
+              <h4 class="font-bold mb-2">2026勸募計畫</h4>
+              <p class="text-sm mb-2">2026 Fundraising Project</p>
+              <p class="text-sm text-gray-600 mb-4">
+                一棵樹一點愛，每一份樣品的支持都將守護臺灣山林的森態。綠寶護生態共同以及復育臺灣山林，約組織。
+              </p>
+              <button class="px-4 py-2 border border-gray-800 rounded-full text-sm hover:bg-gray-800 hover:text-white transition">
+                捐款支持
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+      <div class="container mx-auto px-4 text-center text-sm">
+        <p class="mb-2">臺灣山林復育協會 | 40353南投縣埔里鎮桃米路31-6號 | 04-9292-7330 | 週二至週六 08:00 - 17:00</p>
+        <p class="text-gray-400">Copyright © 2026 ATFR | Association of Taiwan Forest Restoration. All rights reserved.</p>
+      </div>
+    </footer>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
