@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #277a15;
+  --color-footer: #17472e;
+}
