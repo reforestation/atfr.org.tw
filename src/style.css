@@ -3,4 +3,28 @@
 @theme {
   --color-primary: #277a15;
   --color-footer: #17472e;
+
+  --animate-fade-in: fade-in 1s ease-in-out forwards;
+  --animate-fade-in-delay: fade-in-delay 2s ease-in-out forwards;
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+
+  @keyframes fade-in-delay {
+    0% {
+      opacity: 0%;
+    }
+    50% {
+      opacity: 0%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
 }
